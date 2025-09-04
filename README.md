@@ -10,7 +10,7 @@
   2. 修正RGB供电自动关闭的功能。
 
 > 如果您的键盘于10月24日之前更新，请更新最新的固件。
-> 
+>
 ---
 # 联系我
 
@@ -18,5 +18,4 @@
 
 # Corne键位图
 
-<img src="keymap-drawer/corne.svg" >
-
+<img src="keymap-drawer/eyeslash_corne.svg" >
