@@ -166,7 +166,7 @@ layers:
   - {t: '[', s: '{'}
   - '{'
   - (
-  - '&default_report'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
