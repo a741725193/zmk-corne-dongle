@@ -99,10 +99,10 @@
         right_layer {
             display-name = "NUM & NAVIGATION";
             bindings = <
-                &trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                       &mmv MOVE_UP                                 &kp N6        &kp N7     &kp N8       &kp N9      &kp N0        &trans
-                &trans  &kp DEL          &kp CAPS        &kp PSCRN     &kp INS       &trans  &kp C_MUTE           &mmv MOVE_LEFT  &mkp LCLK  &mmv MOVE_RIGHT                   &kp LEFT      &kp DOWN   &kp UP       &kp RIGHT   &trans        &trans 
-                &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &trans                                       &mmv MOVE_DOWN                               &kp HOME      &kp PG_DN  &kp PG_UP    &kp END     &bootloader   &trans
-                                         &trans          &trans        &kp ESC                                                                                                 &trans        &trans     &trans
+                &trans  &kp N1           &kp N2          &kp N3          &kp N4        &kp N5                                       &mmv MOVE_UP                                 &kp N6        &kp N7     &kp N8       &kp N9      &kp N0        &trans
+                &trans  &kp DEL          &kp CAPS        &kp PSCRN       &kp INS       &trans  &kp C_MUTE           &mmv MOVE_LEFT  &mkp LCLK  &mmv MOVE_RIGHT                   &kp LEFT      &kp DOWN   &kp UP       &kp RIGHT   &trans        &trans 
+                &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &bt BT_CLR_ALL  &trans        &trans                                       &mmv MOVE_DOWN                               &kp HOME      &kp PG_DN  &kp PG_UP    &kp END     &bootloader   &trans
+                                         &trans          &trans          &kp ESC                                                                                                 &trans        &trans     &trans
             >;
             sensor-bindings = <&scroll_encoder>;
         };
