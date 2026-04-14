@@ -21,6 +21,6 @@ manifest:
       revision: change_spi2
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
+      revision: v0.3
   self:
     path: config
