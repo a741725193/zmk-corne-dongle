@@ -139,7 +139,7 @@
 &mt LG(A) LG(Z)  &kp SLASH       &kp W          &kp E              &kp R           &kp T                               &kp W             &kp Y        &kp U            &kp I              &kp O          &kp SEMICOLON   &trans
 &mt LG(X) LG(C)  &hm250 LCTRL A  &hm200 LALT S  &hm200 LEFT_GUI D  &hm200 LSHFT F  &kp G                        &kp A  &mkp LCLK  &kp D  &kp H        &hm200 LSHFT J   &hm200 LEFT_GUI K  &hm200 LALT L  &hm250 LCTRL P  &trans
 &kp LG(V)        &kp Z           &kp X          &kp C              &kp V           &kp Q           &kp SPACE           &kp S             &kp N        &kp M            &kp B              &kp COMMA      &kp PERIOD      &trans
-                                                &lt 6 ESC          &lt 4 SPACE     &lt 5 CAPSLOCK                                        &lt 2 ENTER  &lt 1 BACKSPACE  &lt 3 DEL
+                                                &lt 6 ESC          &lt 5 SPACE     &lt 4 CAPSLOCK                                        &lt 2 ENTER  &lt 1 BACKSPACE  &lt 3 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -148,10 +148,10 @@
         Num {
             display-name = "Num";
             bindings = <
-&trans  &kp LBKT   &kp N7  &kp N8  &kp N9      &kp RBKT                          &trans          &trans  &trans  &trans  &trans    &trans    &trans
-&trans  &kp APOS   &kp N4  &kp N5  &kp N6      &kp EQUAL                 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans
-&trans  &kp GRAVE  &kp N1  &kp N2  &kp N3      &kp BSLH        &trans            &trans          &trans  &trans  &trans  &kp LBKT  &kp RBKT  &trans
-                           &kp N0  &kp PERIOD  &kp UNDERSCORE                                    &trans  &trans  &trans
+&trans  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT                          &trans          &trans  &trans  &trans  &trans    &trans    &trans
+&trans  &kp APOS   &kp N4  &kp N5   &kp N6  &kp EQUAL                 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans
+&trans  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH        &trans            &trans          &trans  &trans  &trans  &kp LBKT  &kp RBKT  &trans
+                           &kp DOT  &kp N0  &kp UNDERSCORE                                    &trans  &trans  &trans
             >;
         };
 
