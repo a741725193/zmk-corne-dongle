@@ -14,13 +14,13 @@ manifest:
       revision: main 
     - name: zmk
       remote: zmkfirmware
-      revision: 57c72aa
+      revision: main        # ← main 유지
       import: app/west.yml
-    - name: prospector-zmk-module                 # <--- and these
-      remote: tokyo2006                          # <---
+    - name: prospector-zmk-module
+      remote: tokyo2006
       revision: change_spi2
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: v0.3
+      revision: v0.3         # ← 이게 main과 호환 안되면 main으로 변경
   self:
     path: config
